@@ -476,7 +476,6 @@
             </child>
             <child>
               <object class="GtkSpinButton" id="time_hour">
-                <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="halign">start</property>
@@ -492,7 +491,6 @@
             </child>
             <child>
               <object class="GtkSpinButton" id="time_minutes">
-                <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="halign">start</property>
@@ -508,7 +506,6 @@
             </child>
             <child>
               <object class="GtkSpinButton" id="time_seconds">
-                <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="halign">start</property>
@@ -551,8 +548,6 @@
                 </items>
                 <child internal-child="entry">
                   <object class="GtkEntry">
-                    <property name="width-request">-1</property>
-                    <property name="height-request">-1</property>
                     <property name="can-focus">False</property>
                     <property name="halign">start</property>
                     <property name="valign">start</property>
