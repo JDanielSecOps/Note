@@ -180,6 +180,7 @@
                     <property name="min-width">150</property>
                     <property name="title" translatable="yes">Completed</property>
                     <property name="expand">True</property>
+                    <property name="alignment">0.5</property>
                     <child>
                       <object class="GtkCellRendererToggle" id="completed_renderer">
                         <signal name="toggled" handler="on_completed_renderer_toggled" after="yes" swapped="yes"/>
