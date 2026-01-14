@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.EditNote
 import androidx.compose.material.icons.filled.RestoreFromTrash
 import androidx.compose.material.icons.filled.Update
 import androidx.compose.material3.Icon
@@ -67,7 +69,7 @@ fun todoCard(
                 IconButton(
                     onClick = {update()}
                 ) {
-                    Icon(Icons.Filled.Update,null)
+                    Icon(Icons.Filled.Edit,null)
                 }
                 IconButton(
                     onClick = {delete()}

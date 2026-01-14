@@ -3,6 +3,8 @@ package com.app.note.components.updateTodoScreenComponents
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBackIosNew
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.EditNote
 import androidx.compose.material.icons.filled.Update
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -30,7 +32,7 @@ fun updateNoteTAB(
         title = { Text("Note") },
         actions = {
             IconButton(onClick ={navToHomeScreen()}) {
-                Icon(Icons.Filled.Update,null)
+                Icon(Icons.Filled.Edit,null)
             }
         }
     )
